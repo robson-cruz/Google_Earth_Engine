@@ -56,7 +56,7 @@ var visRGB = {
   gamma: [1.6, 1.9, 1.9]
 };
 
-// Reduzir a coleção 
+// Reduce collection by median filter
 function median(img){
   return img.reduce(ee.Reducer.median());
 }
