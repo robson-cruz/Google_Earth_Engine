@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/rcflorestal/Google_Earth_Engine.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Robson Cruz",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/rcflorestal/Google_Earth_Engine/issues"
   },
