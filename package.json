@@ -1,0 +1,19 @@
+{
+  "name": "google_earth_engine",
+  "version": "1.0.0",
+  "description": "Download satellite images from LANDSAT 8 to the Google Drive via through Google Earth Engine.",
+  "main": "Download_OLI.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcflorestal/Google_Earth_Engine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcflorestal/Google_Earth_Engine/issues"
+  },
+  "homepage": "https://github.com/rcflorestal/Google_Earth_Engine#readme"
+}
