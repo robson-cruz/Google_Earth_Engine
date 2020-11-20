@@ -67,7 +67,7 @@ var imgMed = median(oli);
 print(oli.getInfo());
 //print(oliToa.getInfo());
 
-/* Fusão com a banda pan
+/* RGB to HSV
 var pan = function(img){
   var rgb = img.select(['B6', 'B5', 'B4']);
   var gray = img.select('B8');
@@ -92,5 +92,5 @@ Export.image.toDrive({
 
 // Display AOI on the map.
 Map.centerObject(TEI, 14);
-Map.addLayer(visArea, {color: 'f8766d'}, 'FAZ');
+Map.addLayer(visArea, {palette: 'f8766d'}, 'FAZ');
 Map.setOptions('HYBRID');
