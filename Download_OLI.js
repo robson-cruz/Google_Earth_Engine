@@ -1,6 +1,6 @@
 // AOI
-// Load vector layer of TEI 337082-C 
-var TEI = ee.FeatureCollection('users/nsrditec/IBAMA/02047-000693-2007-12/TEI_337082_C');
+// Load vector
+var TEI = ee.FeatureCollection('users/.......'); // enter the vector file path in single quotes
 
 // Buffer 2 km
 var sample = TEI.geometry();
