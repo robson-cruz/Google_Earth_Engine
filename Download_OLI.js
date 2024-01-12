@@ -26,9 +26,9 @@ function fmask(img){
 }
 
 // LANDSAT 8 OLI Collection
-var oli = ee.ImageCollection('LANDSAT/LC08/C01/T1_SR')
+var oli = ee.ImageCollection('LANDSAT/LC08/C02/T1_L2')
   //.map(fmask)
-  .select(['B2', 'B3', 'B4', 'B5', 'B6', 'B7'],
+  .select(['SR_B2', 'SR_B3', 'SR_B4', 'SR_B5', 'SR_B6', 'SR_B7'],
           ['Blue', 'Green', 'Red','NIR', 'SWIR1', 'SWIR2'])
   .filter(ee.Filter.eq('WRS_PATH', 225))
   .filter(ee.Filter.eq('WRS_ROW', 65))
