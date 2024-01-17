@@ -63,9 +63,8 @@ var etm = l7.filterDate(checkStart, checkEnd).median();
 // RGB visualize parameters
 var visRGB = {
   bands:  /*['B5','B4','B3'],*/ ['SWIR1', 'NIR', 'Red'],
-  min: 10,
-  max: 30000,
-  gamma: [1.8, 1.7, 1.9]
+  min: 0,
+  max: 0.3
 };
 
 
