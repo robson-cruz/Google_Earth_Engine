@@ -64,7 +64,7 @@ var etm = l7.filterDate(checkStart, checkEnd).median();
 var visRGB = {
   bands:  /*['B5','B4','B3'],*/ ['SWIR1', 'NIR', 'Red'],
   min: 0,
-  max: 0.3
+  max: 30000
 };
 
 
