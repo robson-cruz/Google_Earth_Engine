@@ -52,8 +52,7 @@ var oliToa = ee.ImageCollection('LANDSAT/LC08/C01/T1_TOA')
 var visRGB = {
   bands:  /*['B5','B4','B3'],*/ ['SWIR1', 'NIR', 'Red'],
   min: 0,
-  max: 30000,
-  gamma: [1.6, 1.9, 1.9]
+  max: 0.3,
 };
 
 // Reduce collection by median filter
